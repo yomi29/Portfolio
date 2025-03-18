@@ -239,7 +239,7 @@
                   class="relative bg-[#1a1a1a] p-8 hover:border rounded-[20px] transition-all duration-300 hover:-translate-y-1 border-opacity-10 border-gray-500 col-span-6 group">
                   <a href="https://beezlinq.com/" target="_blank" class="block">
                     <div class="overflow-hidden rounded-[25px]">
-                      <img src="~/assets/images/beezlinqq.jpg" alt="beezlinq"
+                      <img src="~/assets/images/Beezlinqq.jpg" alt="beezlinq"
                         class="w-full rounded-[25px] mt-4 transition-transform duration-300 group-hover:scale-110" />
                     </div>
                     <h3 class="text-4xl font-semibold text-[#fefce1] mt-3 mb-3">
