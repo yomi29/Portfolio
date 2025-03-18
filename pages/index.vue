@@ -1,15 +1,14 @@
 <template>
   <div class="bg-[#0e0f0f] text-gray-300 h-full">
     <!-- Nav bar -->
-    <nav class="p-4 fixed left-0 right-0 shadow-xl bg-[#0e0f0f] top-0 z-10 rounded-md flex items-center justify-between px-[80px]">
+    <nav
+      class="p-4 fixed left-0 right-0 shadow-xl bg-[#0e0f0f] top-0 z-10 rounded-md flex items-center justify-between px-[80px]">
       <!-- logo -->
       <div class="">
-        <span class="hover:text-gray-400 text-2xl">
-          Adebi<small class="text-2xl text-yellow-400">mpe</small></span>
+        <Logo />
       </div>
-
-      <!-- nav links -->
-      <div>
+      <!-- nav links for desktop -->
+      <div class="max-sm:hidden">
         <ul class="flex items-center gap-5">
           <li>
             <a class="hover:text-gray-400 text-lg hover:text-yellow-400 hover:underline" href="#about">About</a>
@@ -27,10 +26,17 @@
           </li>
         </ul>
       </div>
+
+      <!-- nav links for mobile and small screens -->
+      <div class="md:hidden">
+        <button type="button" >
+         <SvgMenu class="w-6 h-6 text-white" />
+        </button>
+      </div>
     </nav>
     <hr />
     <!-- Main content -->
-    <main class="mt-20 max-w-[1200px] mx-auto bg-[#0e0f0f]">
+    <main class="mt-40 max-sm:px-5 md:px-5 lg:px-0  max-w-[1200px] mx-auto bg-[#0e0f0f]">
       <!-- hero section -->
       <div class="flex items-center justify-between h-full">
         <!-- Left side contents -->
@@ -43,10 +49,14 @@
           </p>
 
           <!-- button and social link  -->
-          <div>
+          <div class="space-x-4">
             <button type="button"
               class="border rounded-full py-3 px-5 hover:bg-shadow-xl text-lg text-gray-300 hover:bg-gray-300 hover:text-black">
               View Portfolio
+            </button>
+            <button type="button"
+              class="border rounded-full py-3 px-5 bg-white  hover:bg-shadow-xl text-lg text-black hover:bg-transparent  hover:text-gray-200">
+              Download CV
             </button>
           </div>
         </div>
@@ -617,13 +627,9 @@
       <hr class="my-10" />
       <div class="max-w-[600px] mx-auto">
         <!-- logo -->
-        <div class="pb-10 mx-auto text-center">
-          <span class="hover:text-gray-400 text-2xl">
-            <span class="text-black rounded-lg bg-white px-2 text-center font-semibold">A</span>debi<small
-              class="text-2xl text-yellow-400">mpe</small></span>
-        </div>
+        <Logo />
         <!-- page links -->
-         <div class="mx-auto">
+        <div class="mx-auto">
           <ul class="flex justify-center items-center space-x-12 text-lg">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -631,15 +637,17 @@
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
           </ul>
-         </div>
+        </div>
+
+        <!-- social links -->
+        <div class="flex items-center justify-center mt-10 space-x-10 pb-10">
+          <SvgInstagram class="w-7 h-7 fill-white hover:text-gray-400" />
+          <SvgTwitter class="w-6 h-6 text-white hover:text-gray-400" />
+          <SvgLinkedln class="w-6 h-6 text-white hover:text-gray-400" />
+        </div>
       </div>
     </div>
   </div>
-
-
-
-
-
 </template>
 
 <script setup>
