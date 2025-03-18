@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#0e0f0f] text-gray-300 h-full">
     <!-- Nav bar -->
-    <nav class="p-4 rounded-md flex items-center justify-between px-[80px]">
+    <nav class="p-4 fixed left-0 right-0 shadow-xl bg-[#0e0f0f] top-0 z-10 rounded-md flex items-center justify-between px-[80px]">
       <!-- logo -->
       <div class="">
         <span class="hover:text-gray-400 text-2xl">
@@ -483,9 +483,9 @@
       </div>
       <!-- skills -->
       <div class=" max-w-[1200px] mx-auto">
-        <div class="skills mt-5 bg-[#101111] max-w-[800px] mx-auto">
-          <div class="relative bg-[#1a1a1a] p-8 rounded-[20px] h-[300px]">
-            <div class="w-[500px] ">
+        <div class="skills mt-5 bg-[#101111] mx-auto">
+          <div class="relative bg-[#1a1a1a] p-8 rounded-[20px] h-[150px]">
+            <div class="">
               <h3 class="text-4xl font-semibold text-[#bbbaa6] mt-5 mb-3">
                 Skills
               </h3>
@@ -499,19 +499,19 @@
 
     <!-- Contact Me -->
 
-    <div class="bg-[#101111] w-full">
+    <div class="bg-[#101111] w-full pt-10" id="contact-me">
       <div class="max-w-[1200px] mx-auto">
-        <div class="grid-cols-12 grid gap-4 mt-10">
+        <div class="grid-cols-12 grid gap-4">
           <!-- contact -->
-          <div class="relative bg-[#1a1a1a] p-8 col-span-6 group">
+          <div class="relative bg-[#101111] p-8 col-span-6 group">
             <div>
-              <h3 class="text-4xl font-semibold text-[#fefce1] mb-3">
+              <h3 class="text-5xl font-semibold text-[#fefce1] mb-3">
                 It's time to talk about your project.
               </h3>
               <div class="text-[#bbbaa6b3] mt-7">
                 <div class="dtr-timeline__content"
                   bis_size='{"x":1045,"y":3835,"w":331,"h":61,"abs_x":1045,"abs_y":3890}'>
-                  <p class="dtr-timeline__heading"
+                  <p class="dtr-timeline__heading text-lg"
                     bis_size='{"x":1045,"y":3835,"w":331,"h":28,"abs_x":1045,"abs_y":3890}'>
                     Let’s embark on quality journey together making your product stand out in the crowded digital
                     marketplace by ensuring it performs flawlessly for every user
@@ -578,17 +578,60 @@
           </div>
 
           <!-- contact form -->
-          <div class="relative bg-[#1a1a1a] p-8 rounded-[20px]  col-span-6 group">
+          <div class="relative bg-[#1a1a1a] p-8 rounded-[20px]  col-span-6 group shadow-xl">
             <form action="">
               <div>
                 <h3 class="text-4xl font-semibold text-[#fefce1] mb-3">
                   Contact Me
                 </h3>
-                <div class="text-[#bbbaa6b3] mt-7"></div>
+                <div class="text-[#bbbaa6b3] mt-7 space-y-6">
+                  <div>
+                    <input type="text" class="py-3 px-3  rounded-[8px] w-full bg-[#101111]"
+                      placeholder="Adebimpe Adeniyi">
+                  </div>
+                  <div>
+                    <input type="text" class="py-3 px-3 bg-[#101111] rounded-[8px] w-full"
+                      placeholder="hello@gmail.com">
+                  </div>
+                  <div>
+                    <input type="text" class="py-3 px-3 bg-[#101111] rounded-[8px] w-full" placeholder="Subject">
+                  </div>
+                  <div>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"
+                      class="py-3 px-3 bg-[#101111] rounded-[8px] w-full"></textarea>
+                  </div>
+                  <div>
+                    <button
+                      class="text-black bg-white rounded-full py-3 px-5 hover:bg-shadow-xl text-lg hover:bg-gray-300 hover:text-black">Send
+                      Message</button>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div>
+      <hr class="my-10" />
+      <div class="max-w-[600px] mx-auto">
+        <!-- logo -->
+        <div class="pb-10 mx-auto text-center">
+          <span class="hover:text-gray-400 text-2xl">
+            <span class="text-black rounded-lg bg-white px-2 text-center font-semibold">A</span>debi<small
+              class="text-2xl text-yellow-400">mpe</small></span>
+        </div>
+        <!-- page links -->
+         <div class="mx-auto">
+          <ul class="flex justify-center items-center space-x-12 text-lg">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#services">Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+          </ul>
+         </div>
       </div>
     </div>
   </div>

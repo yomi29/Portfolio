@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <slot></slot>
+    <!-- footer -->
   </div>
 </template>
 
