@@ -246,8 +246,7 @@
                       Beezlinq
                     </h3>
                     <p class="text-[#bbbaa6b3]">
-                      Comprehensive verification of all system functions against
-                      requirements to ensure your software works as intended.
+                      Your All-in-One Digital Business Card to network smarter and faster.
                     </p>
                   </a>
                 </div>
@@ -257,15 +256,14 @@
                   class="relative bg-[#1a1a1a] p-8 hover:border rounded-[20px] transition-all duration-300 hover:-translate-y-1 border-opacity-10 border-gray-500 col-span-6 group">
                   <a href="https://realtimepay.ng/" target="_blank" class="block">
                     <div class="overflow-hidden rounded-[25px]">
-                      <img src="~/assets/images/RealtimePay.jpg" alt="beezlinq"
+                      <img src="~/assets/images/RealtimePay.jpg" alt="realtimepay"
                         class="w-full rounded-[25px] mt-4 transition-transform duration-300 group-hover:scale-110" />
                     </div>
                     <h3 class="text-4xl font-semibold text-[#fefce1] mt-3 mb-3">
-                      Beezlinq
+                      RealtimePay
                     </h3>
                     <p class="text-[#bbbaa6b3]">
-                      Comprehensive verification of all system functions against
-                      requirements to ensure your software works as intended.
+                      Seamless, Secure, and Stress-Free – All Your Bills, One App. Say goodbye to the hassle of managing multiple payment portals.
                     </p>
                   </a>
                 </div>
@@ -284,8 +282,9 @@
                       Utilify
                     </h3>
                     <p class="text-[#bbbaa6b3]">
-                      Comprehensive verification of all system functions against
-                      requirements to ensure your software works as intended.
+                      Your utility bills payment solution
+                      <br>
+                      Spend less, save more.
                     </p>
                   </a>
                 </div>
@@ -302,8 +301,7 @@
                       Vixbay Tech
                     </h3>
                     <p class="text-[#bbbaa6b3]">
-                      Comprehensive verification of all system functions against
-                      requirements to ensure your software works as intended.
+                      Empowering digital success for all through accessible and innovative technology solutions.
                     </p>
                   </a>
                 </div>
@@ -321,8 +319,7 @@
                       Interviewhq
                     </h3>
                     <p class="text-[#bbbaa6b3]">
-                      Comprehensive verification of all system functions against
-                      requirements to ensure your software works as intended.
+                      Save time and money.
                     </p>
                   </a>
                 </div>
@@ -362,7 +359,7 @@
         <div class="grid-cols-12 grid gap-4">
           <!-- About Image -->
           <div class="relative bg-[#1a1a1a] p-8 rounded-[20px] col-span-5 group">
-            <div class="w-[200px] h-[300px] rounded-full mx-auto mx-auto">
+            <div class="w-[300px] h-[300px] mt-7 rounded-full mx-auto mx-auto">
               <img src="~assets/images/backup-img1.jpeg" class="object-center rounded-full mx-auto" alt="" />
             </div>
           </div>
